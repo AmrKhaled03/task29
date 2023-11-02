@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+body{
+        margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    overflow-x: hidden;
+    height: auto;
+}
+.navbar{
+    width: 100%;
+    height: 80px;
+    background-color: #005CB4;
+}
+.logo{
+    width: 70px;
+    height: 70px;
+}
+
+.navbar>.container-fluid>.collapse>ul>li>a{
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+}
+.content{
+width: 100%;
+height:auto;
+    background-color: #005CB4;
+    overflow: hidden;
+}
+.text-box h2{
+font-size: 4em;
+color: #fff;
+text-transform: uppercase;
+line-height: 1.5em;
+font-size: 900;
+
+}
+.text-box p{
+color: #fff;
+}
+.text-box a{
+    display:inline-block;
+    margin-top: 20px ;
+    padding: 8px 20px;
+    background-color: #fff;
+border-radius: 40px;
+text-decoration: none;
+font-weight: 500;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #111;
+}
+.col-lg-5>img{
+    width: 450px;
+ 
+height: 700px;
+
+}
+.col-lg-5{
+    position: relative;
+}
+.icons{
+position: absolute;
+margin-bottom: 10px;
+  width: 70px;
+  height: 300px;
+  display: flex; 
+  flex-direction: column;
+right: -20px;
+justify-content: center;
+  gap: 20px;
+  top: 150px;
+}.icons>a>i{
+  font-size: 30px;
+  padding: 20px;
+
+}
+.icons>a>.fa-github{
+  color: green;
+}
+.icons>a>.fa-facebook{
+  color: rgb(50, 95, 243);
+}
+.icons>a>.fa-instagram{
+color: orange;
+}
+.thubmils .col-4 img:hover{
+scale: 1.2;
+}
